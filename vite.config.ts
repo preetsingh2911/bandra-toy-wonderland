@@ -13,7 +13,7 @@ export default defineConfig({
     server: { entry: "server" },
   },
   nitro: {
-    // Pre-render all routes to static HTML for Render Static Site
-    preset: "static",
+    // Standalone Node.js server for Render Web Service
+    preset: "node-server",
   },
 });
